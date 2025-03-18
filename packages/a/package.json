@@ -1,0 +1,9 @@
+{
+  "name": "@scope/a",
+  "dependencies": {
+    "@scope/b": "workspace:*"
+  },
+  "scripts": {
+    "build": "touch output.txt"
+  }
+}

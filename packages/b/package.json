@@ -1,0 +1,7 @@
+{
+  "name": "@scope/b",
+  "dependencies": {},
+  "scripts": {
+    "build": "touch output.txt"
+  }
+}

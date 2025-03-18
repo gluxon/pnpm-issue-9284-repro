@@ -1,0 +1,26 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+  injectWorkspacePackages: true
+
+importers:
+
+  .: {}
+
+  packages/a:
+    dependencies:
+      '@scope/b':
+        specifier: workspace:*
+        version: link:../b
+
+  packages/b: {}
+
+  packages/c:
+    dependencies:
+      '@scope/d':
+        specifier: workspace:*
+        version: link:../d
+
+  packages/d: {}
