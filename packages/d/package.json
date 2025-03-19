@@ -1,3 +1,7 @@
 {
-  "name": "@scope/d"
+  "name": "@scope/d",
+  "scripts": {
+    "build": "mkdir ./dist && touch dist/output.txt",
+    "clean": "rm -rf ./dist"
+  }
 }
