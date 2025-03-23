@@ -1,6 +1,6 @@
 {
   "name": "@scope/c",
   "dependencies": {
-    "@scope/d": "workspace:*"
+    "@scope/d": "workspace:../d/dist"
   }
 }

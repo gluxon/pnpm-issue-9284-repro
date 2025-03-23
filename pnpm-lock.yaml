@@ -20,7 +20,7 @@ importers:
   packages/c:
     dependencies:
       '@scope/d':
-        specifier: workspace:*
-        version: link:../d
+        specifier: workspace:../d/dist
+        version: link:../d/dist
 
   packages/d: {}
